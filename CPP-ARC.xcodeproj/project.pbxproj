@@ -1,0 +1,225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059DCFF3156CE23900C9E1CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 059DCFF2156CE23900C9E1CE /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		059DCFEC156CE23900C9E1CE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		059DCFEE156CE23900C9E1CE /* CPP-ARC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CPP-ARC"; sourceTree = BUILT_PRODUCTS_DIR; };
+		059DCFF2156CE23900C9E1CE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		059DCFFC156CE32100C9E1CE /* cpp-arc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cpp-arc.h"; sourceTree = "<group>"; };
+		059DCFFD156CE32100C9E1CE /* macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
+		059DCFFE156CE32100C9E1CE /* std-c99.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "std-c99.h"; sourceTree = "<group>"; };
+		059DCFFF156CE32100C9E1CE /* std-cpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "std-cpp.h"; sourceTree = "<group>"; };
+		059DD000156CE32100C9E1CE /* std-posix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "std-posix.h"; sourceTree = "<group>"; };
+		059DD001156CE32100C9E1CE /* warnings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = warnings.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		059DCFEB156CE23900C9E1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		059DCFE3156CE23900C9E1CE = {
+			isa = PBXGroup;
+			children = (
+				059DCFF1156CE23900C9E1CE /* CPP-ARC */,
+				059DCFEF156CE23900C9E1CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		059DCFEF156CE23900C9E1CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				059DCFEE156CE23900C9E1CE /* CPP-ARC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		059DCFF1156CE23900C9E1CE /* CPP-ARC */ = {
+			isa = PBXGroup;
+			children = (
+				059DCFFB156CE32100C9E1CE /* include */,
+				059DCFF2156CE23900C9E1CE /* main.cpp */,
+			);
+			path = "CPP-ARC";
+			sourceTree = "<group>";
+		};
+		059DCFFB156CE32100C9E1CE /* include */ = {
+			isa = PBXGroup;
+			children = (
+				059DCFFC156CE32100C9E1CE /* cpp-arc.h */,
+				059DCFFD156CE32100C9E1CE /* macros.h */,
+				059DCFFE156CE32100C9E1CE /* std-c99.h */,
+				059DCFFF156CE32100C9E1CE /* std-cpp.h */,
+				059DD000156CE32100C9E1CE /* std-posix.h */,
+				059DD001156CE32100C9E1CE /* warnings.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		059DCFED156CE23900C9E1CE /* CPP-ARC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 059DCFF8156CE23900C9E1CE /* Build configuration list for PBXNativeTarget "CPP-ARC" */;
+			buildPhases = (
+				059DCFEA156CE23900C9E1CE /* Sources */,
+				059DCFEB156CE23900C9E1CE /* Frameworks */,
+				059DCFEC156CE23900C9E1CE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CPP-ARC";
+			productName = "CPP-ARC";
+			productReference = 059DCFEE156CE23900C9E1CE /* CPP-ARC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		059DCFE5156CE23900C9E1CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = DigiDNA;
+			};
+			buildConfigurationList = 059DCFE8156CE23900C9E1CE /* Build configuration list for PBXProject "CPP-ARC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 059DCFE3156CE23900C9E1CE;
+			productRefGroup = 059DCFEF156CE23900C9E1CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				059DCFED156CE23900C9E1CE /* CPP-ARC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		059DCFEA156CE23900C9E1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059DCFF3156CE23900C9E1CE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		059DCFF6156CE23900C9E1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		059DCFF7156CE23900C9E1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		059DCFF9156CE23900C9E1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		059DCFFA156CE23900C9E1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		059DCFE8156CE23900C9E1CE /* Build configuration list for PBXProject "CPP-ARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				059DCFF6156CE23900C9E1CE /* Debug */,
+				059DCFF7156CE23900C9E1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		059DCFF8156CE23900C9E1CE /* Build configuration list for PBXNativeTarget "CPP-ARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				059DCFF9156CE23900C9E1CE /* Debug */,
+				059DCFFA156CE23900C9E1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 059DCFE5156CE23900C9E1CE /* Project object */;
+}
