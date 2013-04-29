@@ -1,11 +1,10 @@
 CPP-ARC
 =======
 
-C++ Automatic Reference Counting
---------------------------------
+About
+-----
 
-### About
-
+**C++ Automatic Reference Counting**  
 This project intends to simplify memory management in C++, using reference counting.  
 When allocating memory with the `new` operator, CPP-ARC automatically adds a few bytes of memory to manage a **retain count** on the memory area.
 
@@ -17,10 +16,8 @@ C++ classes are fully compatible with this scheme, as the destructors are called
 
 This project also includes a template used to auto-release allocated memory, when it's not used anymore.
 
-### License
-
-This project is published under the terms of the BOOST license.  
-Feel free to use and modify it.
+Documentation
+-------------
 
 ### How-to: Retain / Release
 
@@ -124,3 +121,19 @@ You can of course use the `AutoPointer` template for functions/methods with argu
 		
 		return 0;
 	}
+
+License
+-------
+
+CPP-ARC is released under the terms of the Boost Software License - Version 1.0.
+
+Repository Infos
+----------------
+
+    Owner:			Jean-David Gadina - XS-Labs
+    Web:			www.xs-labs.com
+    Blog:			www.noxeos.com
+    Twitter:		@macmade
+    GitHub:			github.com/macmade
+    LinkedIn:		ch.linkedin.com/in/macmade/
+    StackOverflow:	stackoverflow.com/users/182676/macmade
