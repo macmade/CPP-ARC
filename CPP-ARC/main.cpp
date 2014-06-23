@@ -245,8 +245,8 @@ namespace CPPARC
                 
                 return *( this );
             }
-            
-            void * operator new( std::size_t size )
+        
+            void * operator new( std::size_t size ) throw()
             {
                 ( void )size;
                 

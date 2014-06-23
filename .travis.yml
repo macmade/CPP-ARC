@@ -1,0 +1,3 @@
+language: objective-c
+xcode_project: CPP-ARC.xcodeproj
+xcode_scheme: CPP-ARC
