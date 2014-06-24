@@ -1,7 +1,7 @@
 CPP-ARC
 =======
 
-[![Build Status](https://travis-ci.org/macmade/CPP-ARC.svg?branch=master)](https://travis-ci.org/macmade/CPP-ARC)
+[![Build Status](https://img.shields.io/travis/macmade/CPP-ARC.svg?branch=master&style=flat)](https://travis-ci.org/macmade/CPP-ARC)
 
 About
 -----
